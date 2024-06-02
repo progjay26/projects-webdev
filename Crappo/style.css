@@ -1,0 +1,775 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+} 
+.first-page{
+    background-color: rgb(13,13,43);
+    padding: 0px 40px;
+
+}
+header{
+    padding: 35px 10px;
+  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 19px;
+   
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.login{
+    display: flex;
+    align-items: baseline;
+    gap: 18px;
+}
+.login p{
+    color:  whitesmoke;
+}
+.login button{
+    border-radius:30px;
+    color: white;
+    background-color: #3671e9;
+    padding: 10px 15px;
+    border: none;
+}
+#hamburgerMenu,
+#closeBtn{
+    display: none;
+   font-size: 30px;
+    color: #F2F2F2;
+    z-index: 10;
+}
+
+.lander{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.lander .left{
+    width: 50%;
+    color: white;
+}
+.lander .left .leftt{
+    border-radius: 32px;
+    background-color: rgb(75 85 99);
+    padding: 4px 16px;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+.lander .left .leftt span{
+    border-radius: 32px;
+    background-color: white;
+    width: 20%;
+    padding: 4px 16px;
+    margin-left: -14px;
+    color: rgb(75 85 99);     
+}
+ .lander .left h1{
+    font-size: 55px;
+    margin-bottom: 5px;
+    width: 70%;
+}
+.lander .left button{
+    background-color:  #3671e9;
+    border-radius: 40px;
+    padding: 8px 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:16px;
+    gap: 12px;
+    margin-top: 20px;
+}
+ .lander .right{
+    width: 50%;
+}
+.lander .right img{
+    width: 80%;
+}
+.figures{
+    margin: 90px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.figures .number{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.figures .number .text p{
+    font-size: 15px;
+}
+.first-page .d img{
+    margin-left: 65rem;
+    position: absolute;
+
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: white;
+}
+.content .image{
+    width: 55%;
+}
+.content .image img{
+    width: 100%;
+}
+.content .text h1{
+    margin-bottom: 15px;
+    font-size: 55px;
+}
+.content .text p{
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.content .text button{
+    color: white;
+    background-color:  #3671e9;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border:none;
+}
+.check{
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.check h1{
+    font-size: 29px;
+    margin-bottom: 5px;
+}
+.check p{
+    font-size: 13.5px;
+    color: rgb(75,85,99);
+    margin-top: 20px;
+}
+/* SECOND PAGE */
+.second-page{
+    width: 100%;
+    margin: auto;
+    background-image:linear-gradient(#FFFFFF,rgb(229, 231, 235));
+}
+.calculator{
+    display: flex;
+    justify-content: center;
+}
+ .calculate {
+    position: relative;
+     width: 70%;
+     margin: auto;
+     background-color:#FBFCFE;
+     box-shadow: 0px 40px 80px 30px rgba(57, 23, 120, 0.25); 
+     border-radius: 16px ;
+     padding: 50px 32px;
+     margin-top: -10rem;
+     box-sizing: border-box;
+}
+.calculate .inputs{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#0D0D2B;
+}
+.calculate .inputs .hash{
+    width: 45%;
+    padding: 10px;
+    padding-bottom: 0;
+    padding-left: 0;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 19px;
+}
+.calculate .inputs select{
+    width: 25%;
+    padding: 10px;
+    padding-bottom: 0;
+    padding-left: 0;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.calculate .inputs input:focus{
+    outline: none;
+    border-bottom: 1px solid grey;
+}
+.calculate .inputs .revenue{
+    background-color:#3671E9;
+    border-radius:32px;
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    margin-right: 7rem;
+    font-weight:500 ;
+    font-size: 16px;
+}
+.calculate .inputs select:focus{
+    outline: none;
+}
+.calculate p{
+    color: #3671E9;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 16px;
+}
+.calculate h2{
+    margin-bottom: 8px;
+    color: #0D0D2B;
+    font-weight: 700;
+    font-size: 25px;
+}
+.calculate span{
+    color: #3671E9;
+}
+.calculate .mining{
+    color:  #828282;;
+    margin-bottom:4px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.crypto-content h1{
+      font-size: 28px;
+    text-align: center;
+    margin: 90px 300px 50px;
+    font-weight: 700;
+    color: #0D0D2B;
+}
+.crypto-content .cryptocurrencies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.crypto-content  .crypto-currency{
+    text-align: center;
+    width: 25%;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    transition-duration: 0.5s;
+    height: 50vh;
+    
+}
+.crypto-content .crypto-currency h1{
+    font-size: 29px;
+    width: fit-content;
+    margin: auto;
+    font-weight: 700;
+    padding: 20px 0 ;
+}
+.crypto-content .crypto-currency h1 sup{
+    font-size: 18px;
+    color: grey;
+    font-weight: 500;
+}
+.crypto-content .crypto-currency p{
+    font-size: 17px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.crypto-content .crypto-currency img{
+    width: fit-content;
+    margin: auto;
+    margin-top: 25px;
+}
+.crypto-content .crypto-currency button{
+    display: none;
+    margin: auto;
+    background-color:#3671E9;
+    color: white;
+    border-radius: 18px;
+    padding: 10px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.crypto-content .crypto-currency button img{
+    width: 16%;
+    margin-left: 8px;
+    
+}
+.crypto-content .bitcoin{
+    background-color:#2B076E;
+    color: white;
+}
+.crypto-content .bitcoin button{
+    display: block;
+}
+.crypto-content .bitcoin .arrow img{
+    display: none;
+}
+/* THIRD PAGE */
+.third-page{
+    background-color: #0D0D2B;
+    color: white;
+}
+.features .index img{
+    position: absolute;
+    width: 50%;
+    z-index: 1; 
+}
+.features h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    padding-top: 70px;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 80px;
+    z-index: 2;
+}
+.features .invest-smart,
+.features .grow-profit,
+.features .detailed-statistics{
+     margin: auto;
+     width: 85%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 30px;
+     margin-bottom: 75px;
+}
+.features .text{
+     width: 40%;
+}
+.features .text h2{
+     margin-bottom: 20px;
+}
+.features .text p{
+     font-size: 17px;
+     margin-bottom: 20px;
+}
+.features .text button{
+     background-color:#3671E9;
+     border-radius: 32px;
+     padding: 12px 22px;
+     color: white;
+     font-size: 14px;
+     border: none;
+}
+.features .text button:hover{
+     background-color: transparent;
+}
+.features .image{
+    width: 50%;
+}
+.features .image img{
+     width: 100%;
+}
+
+.start-mining{
+    width: 82%;
+    margin: auto;
+    border-radius: 16px;
+    padding: 50px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3671E9;
+    color: white;
+}
+.start-mining .text{
+    width: 42%;
+}
+.start-mining .text h3 img{
+    z-index: 1;
+    /* width: 25%; */
+    position: absolute;
+}
+.start-mining .text h3{
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 500;
+    z-index: 2;
+}
+
+.start-mining.text p{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+}
+.start-mining .form{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.start-mining .form input[type='text']{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 2px;
+    width: 25rem;
+    color: white;
+    font-size:18px;
+}
+.start-mining .form input[type='text']::placeholder{
+    color: white;
+}
+.start-mining .form img{
+    position: absolute;
+    z-index: 1;
+    margin-left: 21rem;
+}
+
+.start-mining .form input[type='submit']{
+    border: none;
+    border-radius: 32px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    padding: 12px 28px;
+    font-weight: 400;
+    z-index: 2;
+}
+footer{
+    margin-top: 80px;
+    background: #0D0D2B;
+    padding: 25px 0;
+
+}
+.footer-content{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.footer-content .start{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content .start .logo{
+    height: fit-content; 
+}
+.footer-content .start .link h3{
+   margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-content .start .link a{
+    display: block;
+    text-decoration: none;
+    color: #F2F2F2;;
+    margin-bottom: 19px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-content .start .link a:hover{
+    color: #3671E9;
+}
+.footer-content .start .payment{
+    width: 30%;
+}
+.footer-content .start .payment h3{
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.footer-content .start .payment .payment-methods{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+.footer-content .start .payment .payment-methods i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 50px;
+    font-size: 55px;
+    background: hsla(0, 0%, 88%, 0.05);
+    border-radius: 8px;
+}
+.footer-content .end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-content .end p{
+    font-size: 16px;
+    font-weight: 400;
+}
+ .footer-content .end .last-icons{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    font-size: 25px;
+    margin-right: 90px;
+}
+.footer-content .end .last-icons i:hover{
+    color:#3671E9;
+}
+
+
+@media (max-width:1000px){
+    .first-page{
+        padding: 0;
+    }
+    header{
+         padding-top: 25px;
+    }
+    nav{
+         margin-bottom: 15px;
+    }
+    #hamburgerMenu{
+         display: block;
+    }
+    .links{
+         display: none;
+         position: absolute;
+         background-color: rgb(13,13,43);
+         height: fit-content;
+         width: 90vw;
+         margin: auto;
+         left: 0;
+         right: 0; 
+         top: 5rem;
+         padding: 18.6px;
+         justify-content: center;
+         z-index: 9;
+         gap: 0;
+    }
+    .links a{
+         display: block;
+         text-align: center;
+         margin-bottom: 55px;
+    }
+    .login{
+         justify-content: center;
+    }
+    .login p{
+        display: none;
+    }
+    .lander{
+         display: block;
+         /* gap: 25px; */
+    }
+    .lander .left{
+         width: 100%;
+    }
+    .lander .left .leftt{
+        width: 90%;
+    }
+    .lander .left h1{
+         font-size: 35px;
+         width: 85%;
+    }
+    .lander .left button{
+        padding: 3px 5px;
+        border: none;
+    }
+    .lander .right {
+         width: 100%;
+    }
+    .lander .right img{
+        width: 90%;
+       margin-left: 15px;
+    }
+    .figures{
+         flex-direction: column;
+         gap: 45px;
+    }
+    .first-page .d img{
+        margin-left: 0;
+    }
+    .content{
+         flex-direction: column-reverse;
+         
+    }
+    .content .image{
+         width: 100%;
+    }
+    .content .text {
+        width: 90%;
+        margin: auto;   
+    }
+    .content .text h1{
+        font-size: 35px;    
+    }
+    .check{
+         max-width: 90%;
+    }
+    /* SECOND PAGE */
+    .second-page{
+        height: auto;
+        
+    }
+    .calculate{
+        width: 85%;
+        padding: 75px 20px;
+    }
+    .calculate .inputs{
+         flex-wrap: wrap;
+         margin-bottom: 20px;
+    }
+    .calculate .inputs .hash,
+    .calculate .inputs select{
+         width: 100%;
+         margin-bottom: 38px;  
+    }
+    .calculate .inputs .revenue{
+        width: 40%;
+        margin: 20px 0; 
+   }
+   .calculate h2,
+   .calculate p{
+    margin-bottom: 25px;
+   }
+    .crypto-content{
+         width: 90%; 
+         margin: auto;
+    }
+    .crypto-content h1{
+        font-size: 30px;
+        margin: 70px 20px;
+    }
+    .crypto-content .cryptocurrencies{
+         flex-direction: column;
+         gap: 20px;
+    }
+    .crypto-content .crypto-currency{
+         width: 100%;
+          height: auto; 
+         padding: 70px 0;
+         margin-bottom: 30px;
+    }
+    .crypto-content .crypto-currency p{
+        font-size: 19px;
+        text-align: center;
+    }
+    /* THIRD PAGE */
+    .features .index img{
+         width: 80%;
+        margin: auto; 
+    }
+    .features h1{
+         width: 90%;
+         font-size: 23px;
+         font-weight: 400;
+         
+    }
+    .features .invest-smart,
+    .features .grow-profit{
+         flex-direction: column;
+         width: 100%;
+         justify-content: center;
+    }
+    .features .detailed-statistics{
+         flex-direction: column-reverse;
+         width: 100%;
+         justify-content: center;
+    }
+    .features .text{
+         width: 80%;
+    }
+    .features .text h2{
+         margin-bottom: 15px;
+    }
+    .features .image{
+        width: 85%;
+   }
+    .start-mining{
+         width: 80%;
+         margin: auto;
+         flex-direction: column;
+         justify-content: center;
+         gap: 15px;
+         padding: 40px 25px;
+    }
+    .start-mining .text{
+         width: 100%;
+    }
+    .start-mining .text h3 {
+        margin-bottom: 26px;
+         font-size: 25px;
+    }
+    .start-mining .form{
+        display: block;
+    }
+    .start-mining .form img{
+        margin-left: 0;
+        width: 30%;
+    }
+    .start-mining .form input[type='text']{
+         width: 18rem; 
+         margin-bottom: 22px;
+    }
+    .start-mining .start-mining-content img:nth-child(1) {
+         right: 0;
+         top: -50px;
+    }
+    
+    .start-mining .start-mining-content img:nth-child(2) {
+         left: 0;
+    }
+    .footer-content{
+        display: block;
+    }
+    .footer-content .start{
+         flex-direction: column;
+          gap: 25px;
+         justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .footer-content .start .payment {
+         width: 100%;
+         margin-bottom: 30px;
+    }
+    .footer-content .start .payment .payment-methods{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-content .end{ 
+         flex-direction: column;
+         gap: 15px;
+         margin-bottom: 70px;
+    }
+    .footer-content .end .last-icons i{
+       display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
